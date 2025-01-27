@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 50%;
     max-width: 425px;
     max-height: auto;
     background-color: white;
@@ -178,7 +178,7 @@ hr {
 .form-container button{
     margin-left: 30%;
 }
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     .container {
       max-width: 100%;
       padding: auto;
