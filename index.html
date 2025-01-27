@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="heading">facebook</h1>
+    <div class="container">
+        
+        <div class="form-container">
+            <h2>Create a new account:</h2>
+            <p>It's quick and easy.</p>
+            <hr>
+
+            <div class="input-groupp">
+                
+                <input type="text" id="firstname" placeholder="First Name">
+                
+                <input type="text" id="surname" placeholder="Surname">
+            </div>
+
+            <div class="dob-gender">
+                <label for="dob">Date of Birth</label>
+                <div class="dob">
+                    
+                    <input type="text" id="day" placeholder="Day" maxlength="2" size="2"> 
+                    <input type="text" id="month" placeholder="Month" maxlength="3" size="3"> 
+                    <input type="text" id="year" placeholder="Year" maxlength="4" size="4">
+                </div>
+            </div>
+
+            <div class="gender">
+                <label for="gender">Gender</label>
+                <div class="gender-tabs">
+                    
+                    <label for="female" class="gender-button">Female  <input type="radio" id="female" name="gender" value="female"></label>
+
+                    
+                    <label for="male" class="gender-button">Male <input type="radio" id="male" name="gender" value="male"></label>
+
+                    
+                    <label for="custom" class="gender-button">Custom <input type="radio" id="custom" name="gender" value="custom"></label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                
+                <input type="text" id="email" placeholder="Mobile number or email address">
+                
+                <input type="password" id="password" placeholder="New Password">
+            </div>
+
+            <div class="legal">
+                <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+            </div>
+
+             <div class="form-container"><button class="signup-btn">Sign Up</button></div>   
+
+            <p class="already-account"><a href="#">Already have an account?</a></p>
+        </div>
+    </div>
+</body>
+</html>

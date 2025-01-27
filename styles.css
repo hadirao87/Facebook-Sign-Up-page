@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 249, 252, 0.966);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 425px;
+    max-height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    text-align: center;
+    color: #1877f2;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.form-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-container p {
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+.dob-gender select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-groupp {
+    width: 100%;
+    height: 40px;
+    color: #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dob-gender label {
+    font-size: 12px;
+}
+.gender label {
+    font-size: 12px;
+}
+.dob {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px; 
+}
+
+.dob input {
+    width: 30%;
+    height: 40px;
+}
+
+.gender {
+    margin-top: 20px;
+}
+
+.gender label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gender-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.gender-button {
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+    text-transform: capitalize;
+    background-color: white;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.gender-tabs input[type="radio"] {
+    display: inline-block;
+    margin-left: 30px;   
+}
+#male {
+    margin-left: 50px;
+}
+.gender-button:hover {
+    background-color: #e9e9e9;
+}
+
+.input-group input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.legal p {
+    font-size: 10px;
+    color: #777;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.legal a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.signup-btn {
+    width: 40%;
+    height: 40px;
+    padding: 12px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.signup-btn:hover {
+    background-color: #36a420;
+}
+
+.already-account {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.already-account a {
+    text-decoration: none;
+    color: #1877f2;
+}
+.dot {
+    width: 20px;       
+    height: 20px;      
+    background-color: rgb(255, 255, 255); 
+    border-radius: 50%; 
+}
+.form-container button{
+    margin-left: 30%;
+}
