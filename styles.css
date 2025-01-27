@@ -178,3 +178,18 @@ hr {
 .form-container button{
     margin-left: 30%;
 }
+@media (max-width: 600px) {
+    .container {
+      max-width: 100%;
+      padding: auto;
+      margin: auto;
+      overflow: hidden;
+    }
+    .input-groupp{
+        max-width: 100%;
+        overflow: hidden;
+        height: 40px;
+        max-height: 40px;
+        flex-direction: column;
+    }
+  }
